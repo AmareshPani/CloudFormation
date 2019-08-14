@@ -12,6 +12,7 @@ Resources:
       KeyName: 'EC2-A1' # keypair must already exist
       ImageId: ami-030001f7dfbf357d1 # AMI us-east-1
 
+# Documentaion
 # You can now launch the stack and specify the InstanceType at runtime.
 # aws cloudformation create-stack --stack-name ec2-$(date +%s) --template-body file://ec2-param1.yml \ 
 # --parameters "ParameterKey=InstanceType,ParameterValue=t2.small"
